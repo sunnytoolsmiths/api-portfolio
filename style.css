@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*style of header*/
+header {
+    padding: 35px;
+    background-color: #2a607c;
+}
+
+header h1 {
+    color:white;
+}
+
+header a {
+    color: whitesmoke;
+}
+
+header nav{
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/*end of the style of header*/
+
+/*Style the common elements in body*/
+body{
+    background-color: cadetblue;
+}
+
+h2 {
+    margin-bottom: 100px;
+    font-size: 48px;
+    border-right: 10px;
+    border-width: thick;
+    margin-right: 100px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.main-content{
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: rgb(127, 214, 255);
+    color:rgb(233, 192, 28);
+}
+
+/*end of the style of the common elements in body*/
+
+/*end of the style of About Me*/
+#about-me {
+    float: right;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-me img {
+    max-height: 200px;
+    flex: basis 40%;
+}
+
+#about-me p {
+    font-size: 24px;
+    padding-left: 20px;
+}
+/*end of the style of About Me*/
+
+#blog {
+    height: 900px;
+    margin-top: 20px;
+}
+
+.porfolio-image {
+    width: 400px;
+    height: 400px;
+    float:right;
+    height: auto;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+#blog img {
+    width: 300px;
+    height: 300px;
+}
+
+/*end of the style of Blog*/
+
+
+
+/*end of the style of Blog*/
